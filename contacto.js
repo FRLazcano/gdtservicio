@@ -10,8 +10,6 @@ function sendEmail(e){
     Subject: "Test",
     Body: "Test",
   }).then(
-    alert(function (message){
-      alert('email enviado')
-    })
+    alert('email enviado')
   );
 }
