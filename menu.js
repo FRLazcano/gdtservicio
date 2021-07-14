@@ -5,12 +5,4 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
-  for(let i=0; i<4; i++){
-    var y = document.getElementById("titulo"+i);
-    if (y.className === "titulo") {
-      y.className += " responsive";
-    } else {
-      y.className = "titulo";
-    }
-  }
 }
