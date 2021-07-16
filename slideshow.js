@@ -1,9 +1,11 @@
 function load(){
   var opts = {
-      auto : false,
-      fullScreen : false,
-      swipe : true
-  };
-  makeBSS('.num1', opts);
-  setInterval(setText,100)
+    auto : {
+        speed : 3500,
+        pauseOnHover : true
+    },
+    fullScreen : false,
+    swipe : true
+};
+makeBSS('.num1', opts);
 }
