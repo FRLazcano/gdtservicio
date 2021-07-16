@@ -1,5 +1,5 @@
-document.body.addEventListener("touchstart", startTouch, false);
-document.body.addEventListener("touchmove", moveTouch, false);
+document.getElementById("test").addEventListener("touchstart", startTouch, false);
+document.getElementById("test").addEventListener("touchmove", moveTouch, false);
 
 // Swipe Up / Down / Left / Right
 var initialX = null;
