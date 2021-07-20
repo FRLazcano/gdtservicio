@@ -5,6 +5,12 @@
   <script src="js/functional/slideshow.min.js"></script>
   <script src="slideshow.js"> </script>
   <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function() {
+    emailjs.init("user_DGF2NEqWhUX01SZR2fQ9C");
+  })();
+  </script>
 
 <style>
 @font-face {
@@ -656,6 +662,7 @@ a{
   .stepsTagline{
     font-size: 4vw;
   }
+}
 
 </style>
 </head>
@@ -885,7 +892,7 @@ a{
 <div>
 <a name="contacto"></a>
 <h2 class="tituloInterno">Contactanos</h2>
-<form method="post">
+<form>
 <div class="contact">
   <p>Nombre:</p>
   <input type="text" class="contactInput" id="contactName"><br>
@@ -894,7 +901,7 @@ a{
   <p>Tema:</p>
   <input type="text" class="contactInput" id="contactSubject"><br>
   <p> Mensaje: </p>
-  <textarea class="contactTA" rows="20"></textarea>
+  <textarea class="contactTA" rows="20" id="contactMessage"></textarea>
 </div>
 <div>
   <br>

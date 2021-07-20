@@ -1,15 +1,14 @@
 document.getElementById("contactForm").addEventListener("submit",sendEmail);
 
 function sendEmail(e){
-  Email.send({
-    Host:"smtp.gmail.com",
-    Username: "frlazcano2000@gmail.com",
-    Password: "5k0G2CJgK0CB",
-    To: "frlazcano2000@gmail.com",
-    from: "frlazcano2000@gmail.com",
-    Subject: "Test",
-    Body: "Test",
-  }).then(function (message) {
-          alert("mail sent successfully")
-    });
+  var params={
+    from_name:document.getElementById("contactName").value,
+    reply_to:document.getElementById("contactEmail").value,
+    message:document.getElementById("contactMessage").value,
+    subject: document.getElementById("contactSubject").value,
+
+  }
+  emailjs.send("service_k1c4e89","template_9epa6eb",params).then(function(res){
+    alert('mensaje enviado correctamente')
+  })
 }
