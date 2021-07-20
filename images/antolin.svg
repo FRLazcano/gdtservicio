@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="antolin.svg"
+   x="0px"
+   y="0px"
+   width="436px"
+   height="287px"
+   viewBox="83.138 280.445 436 287"
+   enable-background="new 83.138 280.445 436 287"
+   xml:space="preserve"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs13"><filter
+     style="color-interpolation-filters:sRGB;"
+     inkscape:label="Greyscale"
+     id="filter17"
+     x="0"
+     y="0"
+     width="1"
+     height="1"><feColorMatrix
+       values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+       id="feColorMatrix15" /></filter></defs>
+<sodipodi:namedview
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   borderopacity="1"
+   id="namedview21"
+   inkscape:window-height="1006"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.4598624"
+   inkscape:cx="308.59073"
+   inkscape:cy="176.38649"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg19">
+	</sodipodi:namedview>
+<g
+   id="Layer1000"
+   style="filter:url(#filter17)">
+	<path
+   id="path2"
+   fill="#00509E"
+   d="M258.158,331.433c-1.46-10.221-2.92-20.441-4.38-30.662   c144.671-30.053,227.586,2.594,139.128,80.102c-41.788,33.916-115.221,73.296-222.007,78.104   c-21.751,0.978-85.032,0.491-73.777-35.214c7.724-24.505,40.918-40.695,62.582-49.43c96.578-38.945,264.551-32.047,240.082,45.435   c-19.711,2.19-39.422,4.38-59.133,6.57c23.148-41.897-61.86-59.789-122.647-40.152c-61.657,19.978-82.854,54.35,6.201,39.798   C406.01,388.026,432.016,286.742,258.158,331.433L258.158,331.433z" />
+	<path
+   id="path4"
+   fill="#FFEC00"
+   d="M328.323,390.201c9.322,5.051,15.848,11.915,16.226,22.772   c18.358-9.592,33.871-20.592,48.357-32.099c-7.809-8.431-17.13-14.257-27.703-17.923   C357.136,371.764,345.406,380.812,328.323,390.201L328.323,390.201z" />
+	<text
+   transform="matrix(1 0 0 1 301.1833 458.2568)"
+   fill="#00509E"
+   font-family="'AGaramondPro-Regular'"
+   font-size="32"
+   id="text5">GRUPO</text>
+	<text
+   transform="matrix(1 0 0 1 221.9808 518.4984)"
+   fill="#00509E"
+   font-family="'AGaramondPro-Regular'"
+   font-size="64.5"
+   id="text7">ANTOLIN</text>
+	<path
+   id="path14"
+   fill="#FFEC00"
+   d="M221.615,527.656v12.261h287.834v-12.261H221.615z" />
+	<path
+   id="path16"
+   fill="#00509E"
+   d="M221.615,539.919v12.261h287.834v-12.261H221.615z" />
+</g>
+</svg>

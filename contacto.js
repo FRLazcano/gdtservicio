@@ -5,11 +5,11 @@ function sendEmail(e){
     Host:"smtp.gmail.com",
     Username: "frlazcano2000@gmail.com",
     Password: "5k0G2CJgK0CB",
-    To: "a01366080@itesm.mx",
+    To: "frlazcano2000@gmail.com",
     from: "frlazcano2000@gmail.com",
     Subject: "Test",
     Body: "Test",
-  }).then(
-    alert('email enviado')
-  );
+  }).then(function (message) {
+          alert("mail sent successfully")
+    });
 }
