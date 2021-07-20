@@ -6,9 +6,8 @@ function sendEmail(e){
     reply_to:document.getElementById("contactEmail").value,
     message:document.getElementById("contactMessage").value,
     subject: document.getElementById("contactSubject").value,
-
   }
-  emailjs.send("service_k1c4e89","template_9epa6eb",params).then(function(res){
+  emailjs.send("service_vmji1c9","template_hfj02yn",params).then(function(res){
     alert('mensaje enviado correctamente')
   })
 }
