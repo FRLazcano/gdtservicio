@@ -1,0 +1,26 @@
+scripts externos
+
+1- hammer.js para deteccion tactil, documentacion: http://hammerjs.github.io/
+2- email.js para envio de emails, documentacion: https://www.emailjs.com/docs/
+
+scripts
+
+1-contacto.js:
+  manda llamar email.js para mandar un correo de contacto
+
+2-menu.js
+  ajusta el menu de navegacion para que funcione en dispositivos moviles
+
+3-swipe.js
+  deteccion de deslizamiento en la seccion de entrenamientos, asigna clases de manera que se vea el nivel correcto
+
+Todos los elementos en la pagina estan definidos por una clase html, (class="ejemplo"), definida en la seccion <style> del documento, alli se definen los atributos html de los
+elementos, algunos elementos estan definidos una segunda vez dentro de un media query , esto es dentro de las siguientes llaves:
+
+@media screen and (max-width: 600px) {
+
+}
+
+los elementos que estan definidos dentro de este query son elementos que requieren cambio de atributos para la version movil de la pagina, en caso de
+que algun elemento requiera algun ajuste para la version movil es necessario volver a declararlo dentro del query, solo declarar los atributos html que
+se desean cambiar, en caso de que no se declare algun atributo mantendra los atributos declarados antes
